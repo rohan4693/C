@@ -168,3 +168,76 @@
 //     }
 //     return 0;
 // }
+
+// strings in Array
+//  #include<stdio.h>
+//  int main()
+//  {
+//      char a[]={"rohan singh"};
+//      printf("%s",a);
+//      return 0;
+//  }
+
+// #include<stdio.h>
+// int main()
+// {
+//     char a[10][10];
+//     gets(a);
+//     printf("%s",a);
+//     return 0;
+// }
+
+// counting the length of the string using strlen
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+//     unsigned count = 0, i = 0;
+//     char name[30];
+//     printf("enter the name= \n");
+//     gets(name);
+//     count = strlen(name);
+//     puts(name);
+//     printf("length of the string =%d", count);
+//     return 0;
+// }
+
+//counting the length of the string using strlen
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//     unsigned count=0, i=0;
+//     char name[30];
+//     printf("enter the name= \n");
+//     gets(name);
+//     while(name[i] != '\0')
+//     {
+//         count++;
+//         i++;
+//     }
+//     puts(name);
+//     printf("length of the string =%d",count);
+//     return 0;
+// }
+
+//counting the length of the string using strlen
+// #include<stdio.h>
+// #include<string.h>
+// int main()
+// {
+//     int l1,l2;
+//     char a[30]; char b[10];
+//     gets(a);
+//     gets(b);
+//     // strcat(a,b);
+//     l1=strlen(a);
+//     l2=strlen(b);
+//     for(int i=0; i<=l2; i++)
+//     {
+//         a[l1+i]=b[i];
+//     }
+//     printf("%s \n", a);
+//     puts(a);
+//     return 0;
+// }
