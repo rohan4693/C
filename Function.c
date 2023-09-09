@@ -34,20 +34,40 @@
 //     return n;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int sum(int, int);
-int main()
-{
-    int a, b,summ;
-    printf("enter the value of a and b\n");
-    scanf("%d %d", &a, &b);
-    summ=sum(a,b);
-    printf("sum =%d\n",summ);
-    return 0;
-}
+// int sum(int, int);
+// int main()
+// {
+//     int a, b,summ;
+//     printf("enter the value of a and b\n");
+//     scanf("%d %d", &a, &b);
+//     summ=sum(a,b);
+//     printf("sum =%d\n",summ);
+//     return 0;
+// }
 
-int sum(int r, int t)
-{
-    return r + t;
-}
+// int sum(int r, int t)
+// {
+//     return r + t;
+// }
+
+//recursion
+// #include<stdio.h>
+
+// int sum(int n);
+
+// int main()
+// {
+//     printf("sum of n numbers is = %d",sum(5));
+//     return 0;
+// }
+
+// int sum(int n){
+//     if (n == 1){
+//         return 1;
+//     }
+//     int summ1= sum(n-1);
+//     int sumn= summ1+n;
+//     return sumn;
+// }
